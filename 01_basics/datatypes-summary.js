@@ -29,4 +29,27 @@ const myFunction = function(){
 }
 console.log(typeof BigNumbers);
 
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack (Primitive), Heap (Non-Primitive)
+
+let favSongName = "Meer-E-Karwaan"
+let anotherFav = favSongName
+anotherFav = "aasman"
+
+console.log(favSongName);
+console.log(anotherFav);
+
+
+let userOne = {
+    email: "user@gmail.com",
+    upi:" user@ybl"
+}
+let userTwo = userOne
+
+userTwo.email = "ilanos@gmail.com"
+
+console.log(userOne);
+console.log(userTwo);
+
 
