@@ -2,7 +2,7 @@ const name = "Sonali"
 const repoCount = 20
 
 console.log(name + repoCount + "Value");
-//console.log('Hello my name is ${name} and my rep count is ${repoCount}');
+//console.log('Hello my name is ${name} and my rep0 count is ${repoCount}');
 
 let gameName = new String("Sonali-hc")
 console.log(gameName[0]);
